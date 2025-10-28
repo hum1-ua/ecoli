@@ -1,0 +1,48 @@
+# Caching/Logs/Compilación
+##########################
+*.pyc
+__pycache__/
+*.$folder.log
+.python-version
+.pytest_cache/
+
+# Entorno Virtual
+#################
+# Entornos virtuales creados por 'virtualenv' o 'conda'
+# Ignora el nombre más común: 'venv'
+venv/
+env/
+.venv/
+# Ignora archivos de dependencia específicos
+pip-log.txt
+pip-delete-this-file.txt
+.history/
+conda-meta/
+
+# IDEs (Entornos de Desarrollo Integrado)
+########################################
+# Directorios comunes de configuración y caché
+.idea/             # PyCharm, IntelliJ
+*.sublime-workspace # Sublime Text
+*.vscode           # VS Code
+.vscode/
+
+# Build/Instalación
+###################
+# Distribución y archivos de compilación para paquetes (e.g., setuptools)
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Notebooks (Jupyter)
+#####################
+# Archivos de Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Archivos de SO (Sistema Operativo)
+###################################
+# Mac OS
+.DS_Store
+# Windows
+Thumbs.db
