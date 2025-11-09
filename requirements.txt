@@ -1,0 +1,7 @@
+numpy
+pandas 
+ucimlrepo
+matplotlib
+torch
+sklearn
+warnings
